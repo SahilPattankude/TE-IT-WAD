@@ -1,0 +1,58 @@
+/* Banner-like hero section */
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1506765515384-028b60a970df?fit=crop&w=800&q=80') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+  }
+  
+  .hero-text h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-action {
+    width: 100px;
+    margin: 5px;
+  }
+  
+  /* Optional: make header transparent over image */
+  .custom-header {
+    background-color: #222 !important;
+    opacity: 0.95;
+  }
+
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form form {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

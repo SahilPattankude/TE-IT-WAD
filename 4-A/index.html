@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Mobile Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery & jQuery Mobile CDN -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Home Page -->
+ <!-- Home Page -->
+<div data-role="page" id="home" class="home-page">
+    <div data-role="header" class="custom-header" data-theme="b">
+      <h1>🌟 Mobile World</h1>
+    </div>
+  
+    <div role="main" class="ui-content hero-section">
+      <div class="hero-text">
+        <h2>Welcome to Mobile World</h2>
+        <p>Your modern mobile experience starts here.</p>
+       
+      </div>
+    </div>
+  
+    <div data-role="footer" data-position="fixed" data-theme="b">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn-active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- About Page -->
+  <div data-role="page" id="about">
+    <div data-role="header">
+      <h1>About Us</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+      <p>We are passionate about creating modern mobile experiences. Our websites are clean, responsive, and user-friendly.</p>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about" class="ui-btn-active">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Page -->
+  <div data-role="page" id="contact">
+    <div data-role="header">
+      <h1>Contact</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+        <div class="contact-form">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+      
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+      
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+      
+            <input type="submit" value="Send" class="ui-btn ui-btn-b">
+          </form>
+        </div>
+      </div>
+      
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
